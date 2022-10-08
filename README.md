@@ -1,0 +1,2 @@
+# LaboratoryIntelligentManagementSystem
+实验室智能化管理系统-毕业设计
