@@ -63,7 +63,7 @@ public class UserController {
         }
 
         if (user == null) {
-            out.println("<script>alert(\"" + "注册失败,请重新注册\"  );history.back();</script>");
+            out.println("注册失败,请重新注册");
         } else {
 
             try {
@@ -72,7 +72,7 @@ public class UserController {
 
                 return "redirect:toContent";
             } catch (UserException e) {
-                out.println("<script>alert(\"" + e.getMessage() + "注册失败,请重新注册\");history.back();</script>");
+                out.println("注册失败,请重新注册");
             }
         }
 
